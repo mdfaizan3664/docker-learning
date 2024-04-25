@@ -15,4 +15,9 @@ public class StatusApi {
     public String login() {
         return "Login Successful !!";
     }
+
+    @GetMapping("/jenkins")
+    public String jenkins() {
+        return "Jenkins Successful !!";
+    }
 }
